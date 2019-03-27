@@ -10,7 +10,6 @@ function takeANumber(ppline){
   
   var res = ("Welcome, you're number" + num )
   
-  
   return res;
 } 
 
