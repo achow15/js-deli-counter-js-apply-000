@@ -8,7 +8,7 @@ function takeANumber(ppline){
   
   var num = ppline.length + 1;
   
-   res.push(ppline) 
+   res.push(res) 
   
   var res = ("Welcome, you're number" + num )
   
