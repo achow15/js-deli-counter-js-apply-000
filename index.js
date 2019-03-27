@@ -5,7 +5,7 @@
 function takeANumber(ppline, name){
   ppline.push(name) 
   
-  var res = ("Welcome, " + name + ". You are number " + (ppline.length) + " in line.")
+  var res = ("Welcome, you're number" + name + ". You are number " + (ppline.length) + " in line.")
   return res;
 } 
 
