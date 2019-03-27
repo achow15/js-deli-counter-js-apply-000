@@ -4,7 +4,7 @@
 // 1-3 
 function takeANumber(ppline){
   
-   var res = [];
+   var res = [1];
   
    res.push(ppline) 
   
