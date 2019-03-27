@@ -4,13 +4,12 @@
 // 1-3 
 function takeANumber(ppline){
   
-  res = []
+  // var res = [];
   
-  res.push(ppline) 
+  // res.push(ppline) 
   
-  var res = ("Welcome, you're number" + number
+  var res = ("Welcome, you're number" + ppline.length + 1)
   
-  + name + ". You are number " + (ppline.length) + " in line.")
   
   return res;
 } 
