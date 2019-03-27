@@ -13,7 +13,7 @@ function takeANumber(ppline, name){
 // nowServing function
 function nowServing(names) {
   
-    if (names.length === 0)
+    if (!names.length) 
           {
       return "There is nobody waiting to be served!";
           }
@@ -34,7 +34,8 @@ function nowServing(names) {
 // currentLine
 function currentLine(names) {
   
-  if (names.length === 0)
+  if (!names.length) 
+  //if (names.length === 0)
           {
       return "The line is currently empty.";
           }
@@ -45,7 +46,6 @@ function currentLine(names) {
         for (var i = 0; i < names.length -1; i++)
                 
                 {
-                //var comma = [", "];
                 sentence += `${i + 1}. ${names[i]}, `
                       
                 }
@@ -54,28 +54,13 @@ function currentLine(names) {
           sentence += `${names.length}. ` + names[names.length - 1];
        return sentence
 }    
-      
-      
-//       var sentence = "The line is currently: ";
-            
-//               for (var i = 0; i < names.length; i++)
-//                 {
-//                     if (i < names.length - 1) 
-//                         {var comma = ", ";}
-//                     else {var comma = ""}
-//                     while (j < names.length - 1) 
-//                       {
-//                     var comma = ", ";
-//                 sentence += `${i + 1}. ${names[i]}`
-                      
-//                       j++;
-//                       }
-                      
-//                   }
-            
-//             }
-          
-//       // return sentence
-    
-// }
+
+
+//  const numbersAndNames = []
+// for (let i = 0, l = names.length; i < l; i++) {
+//     numbersAndNames.push(`${i + 1}. ${line[i]}`)
+//   }
+
+//   return `The line is currently: ${numbersAndNames.join(', ')}`
+// };
 
