@@ -6,7 +6,9 @@ function takeANumber(ppline){
   
   var num = ppline.length + 1;
   
-  ppline.push(num) 
+  var ar = []
+  
+  ar.push(num) 
   
   var res = ("Welcome, you're number " + num )
   
