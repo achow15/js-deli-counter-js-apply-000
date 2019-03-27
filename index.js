@@ -2,12 +2,16 @@
 // Deli Counter Lab
 
 // 1-3 
-function takeANumber(ppline, name){
-  ppline.push(name) 
+function takeANumber(ppline){
+  
+  
+  
+  res.push(ppline) 
   
   var res = ("Welcome, you're number" 
   
   + name + ". You are number " + (ppline.length) + " in line.")
+  
   return res;
 } 
 
